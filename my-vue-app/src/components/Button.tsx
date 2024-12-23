@@ -8,7 +8,6 @@
 // const NawButton: React.FC<NawButtonProps> = ({ functionName }) => {
 //   const [activeFunction, setActiveFunction] = useState<string | null>(null);
 
-//   // Обработчик для изменения состояния
 //   const handleShowFunction = (functionName: string) => {
 //     setActiveFunction(functionName);
 //   };

@@ -1,0 +1,51 @@
+.ToDo {
+    display: flexbox;
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(238, 252, 255);
+    text-align: center;
+    position: absolute;
+}
+
+.TopBar {
+    display: flexbox;
+    background-color: rgb(207, 255, 251);
+    width: 80vw;
+    height: 20vh;
+    border: solid;
+    margin: 5vh auto;
+}
+
+textarea {
+    width: 100vh;
+    height: 10vh;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin: 5vh auto;
+}
+
+.Task {
+    display: flexbox;
+    background-color: rgb(207, 255, 251);
+    width: 80vw;
+    height: 50vh;
+    max-height: auto;
+    border: solid;
+    margin: 5vh auto;
+}
+
+ul {
+    list-style: none;
+    
+}
+ul button {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: lightcoral;
+    padding: 10px;
+}

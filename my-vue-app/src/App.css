@@ -1,58 +1,19 @@
-#root {
-  max-width: auto;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  background-color: antiquewhite;
-}
-
-.ToDo {
-    width: 150vh;
-    height: 85vh;
-    background-color: rgb(245, 184, 109);
-    text-align: center;
-    margin: 0 auto;
-    padding: 2vh;
-}
-
-.TopBar {
-    display: flexbox;
-    background-color: rgb(245, 205, 156);
-    width: 140vh;
-    height: 20vh;
-    margin: 5vh auto;
-    border: solid;
-}
-
-textarea {
-    width: 100vh;
-    height: 10vh;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
-    resize: none;
-    margin: 5vh auto;
-}
+    margin: 2vh 5vh auto;
+  }
 
-.Task {
-    display: flexbox;
-    background-color: rgb(245, 205, 156);
-    width: 140vh;
-    height: 50vh;
-    max-height: auto;
-    margin: 5vh auto;
-    border: solid;
-}
-
-ul {
-    list-style: none;
-}
-ul.hr li {
-    display: inline; /* Отображать как строчный элемент */
-    margin: 10px; /* Отступ слева */
-    border: 1px solid #000; /* Рамка вокруг текста */
-    padding: 3px; /* Поля вокруг текста */
-}
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(209, 243, 243);
+    color: white;
+    text-align: center;
+  }
